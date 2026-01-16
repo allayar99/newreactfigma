@@ -1,6 +1,8 @@
 import React from 'react'
-import { Container, Iconimg, Sercontainer, Sertitel } from './styles/servicis'
-
+import { Container, Sercontainer, Sertitel } from './styles/servicis'
+import Iconimg from "./assets/Group 4.svg"
+import Iconimg2 from "./assets/Group 5.svg"
+import Iconimg3 from "./assets/Group 6.svg"
 
 const ServicesComp = () => {
   return (
@@ -8,21 +10,25 @@ const ServicesComp = () => {
     <Sercontainer>
       <Sertitel>Our Services</Sertitel>
       <Container>
+      <div>
         <img src={Iconimg} alt="icon"/>
-      <div>icon
         <h3>Planning </h3>
         <span>Our Services Line one
-    Servive line two</span>
+         Servive line two</span>
       </div>
-      <div>icon
+
+      <div>
+        <img src={Iconimg2} alt="icon"/>
         <h3>Interior</h3>
         <span>Our Services Line one
-    Servive line two</span>
+         Servive line two</span>
       </div>
-      <div>icon
+
+      <div>
+        <img src={Iconimg3} alt="icon"/>
         <h3>Exterior</h3>
             <span>Our Services Line one
-    Servive line two</span>
+         Servive line two</span>
         </div>
       </Container>
     </Sercontainer>

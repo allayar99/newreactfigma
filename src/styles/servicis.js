@@ -13,6 +13,7 @@ export const Sertitel = styled.h1`
 display: flex;
 justify-content: center;
 align-items: center;
+padding: 30px;
 `
 
 export const Container = styled.div`
@@ -22,7 +23,7 @@ justify-content: space-evenly;
 
 `
 
-export const Iconimg = styled.div`
-display: flex;
+// export const Iconimg = styled.div`
+// display: flex;
 
-`
+// `

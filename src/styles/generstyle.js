@@ -44,10 +44,16 @@ background-size:cover;
 
 div {
     display: flex;
+    flex-direction:column;
+
     width: 691px;
     height: 550px;
     position: absolute;
-    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    opacity: 0.9;
     
    
     border: 1px solid black;
@@ -56,6 +62,6 @@ div {
 }
 
 h1 {
-    margin-top: 170px;
+    
 }
 `
